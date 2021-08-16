@@ -148,11 +148,8 @@ class FormScreenState extends State<FormScreen> {
                           )),
                 SizedBox(height: 50),
                 // ignore: deprecated_member_use
-                RaisedButton(
-                  child: Text(
-                    'Submit',
-                    style: TextStyle(color: Colors.blue, fontSize: 16),
-                  ),
+                FloatingActionButton(
+                  child: Icon(Icons.check),
                   onPressed: () async {
                     if (!_formKey.currentState!.validate()) {
                       return;
@@ -171,17 +168,6 @@ class FormScreenState extends State<FormScreen> {
                   },
                 ),
                 // ignore: deprecated_member_use
-                RaisedButton(
-                  child: Text(
-                    'Query',
-                    style: TextStyle(color: Colors.blue, fontSize: 16),
-                  ),
-                  onPressed: () async {
-                    final List<Movie> movies =
-                        await MoviesDatabase.instance.readAllNotes();
-                    print(movies.length);
-                  },
-                ),
               ],
             ),
           ),
