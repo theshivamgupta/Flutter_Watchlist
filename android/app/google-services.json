@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "110906493101",
+    "project_id": "watchlist-25b75",
+    "storage_bucket": "watchlist-25b75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110906493101:android:af51e21ef35ec262db5e24",
+        "android_client_info": {
+          "package_name": "com.example.watchlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110906493101-7agdph9817120divbo8qhn6v86oe02is.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0zU1BbzUslzUvs8s9hRP72Cg4tey5PtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110906493101-7agdph9817120divbo8qhn6v86oe02is.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
